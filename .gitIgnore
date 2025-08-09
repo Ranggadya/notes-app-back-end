@@ -1,5 +1,5 @@
-.idea
+
 node_modules
 .env
 .prod.env
-package-lock.jsont
+package-lock.json
