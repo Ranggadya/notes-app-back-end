@@ -12,6 +12,8 @@ class AuthenticationsHandler {
   }
 
   async postAuthenticationHandler(request, h) {
+    console.log('Payload Login:', request.payload);
+
     this._validator.validatePostAuthenticationPayload(request.payload);
 
     const { username, password } = request.payload;
